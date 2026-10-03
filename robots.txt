@@ -1,4 +1,4 @@
 # Allow search engines to crawl the site.
-# Add a Sitemap line after the final GitHub Pages or custom-domain URL is known.
 User-agent: *
 Allow: /
+Sitemap: https://sirbobz.github.io/sitemap.xml
