@@ -561,6 +561,48 @@ h3 {
   line-height: 1.6;
 }
 
+.experience-list {
+  border-top: 1px solid var(--line);
+}
+
+.experience-entry {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.35fr) minmax(0, 1.65fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  padding: 1.8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.experience-period {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.experience-company {
+  margin: 0 0 0.35rem;
+  color: var(--teal-dark);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.experience-body h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.35rem;
+}
+
+.experience-body ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.experience-body li + li {
+  margin-top: 0.45rem;
+}
+
 .card-link {
   margin-top: auto;
   padding-top: 1.25rem;
@@ -589,6 +631,8 @@ h3 {
   min-height: 360px;
   padding: 1.9rem;
   background: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
 .work-image {
@@ -632,6 +676,32 @@ h3 {
   font-size: 1.55rem;
 }
 
+.project-details {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.45rem 0 1.55rem;
+}
+
+.project-details > div {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.project-details dt {
+  color: var(--teal-dark);
+  font-size: 0.67rem;
+  font-weight: 850;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.project-details dd {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.58;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;
@@ -653,6 +723,10 @@ h3 {
   font-size: 0.83rem;
   font-weight: 800;
   text-decoration: none;
+}
+
+.work-card .text-link {
+  margin-top: auto;
 }
 
 .text-link:hover {
@@ -826,6 +900,11 @@ h3 {
 
   .focus-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .experience-entry {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .capability-practice-grid {

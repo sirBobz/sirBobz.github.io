@@ -15,7 +15,10 @@ With 9+ years of experience, I design, modernize, and operate reliable software 
 ## Technical focus
 
 **Languages & frameworks**  
-Java, Spring Boot, PHP, Laravel, Python, Shell
+Java, Spring Boot, PHP, Laravel, JavaScript, Vue.js, Python, Shell
+
+**Frontend**
+JavaScript, Vue.js, HTML, CSS, responsive interfaces, customer portals
 
 **Integration & messaging**  
 Apache Camel, TIBCO ESB, REST, SOAP, Kafka, RabbitMQ, Redis
