@@ -178,6 +178,60 @@ a:hover {
   mask-image: linear-gradient(to bottom, rgba(0,0,0,0.65), transparent 88%);
 }
 
+.proof-strip {
+  color: var(--white);
+  background: var(--dark-soft);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+
+.proof-lead {
+  max-width: 300px;
+}
+
+.proof-lead .eyebrow {
+  margin-bottom: 0.55rem;
+}
+
+.proof-lead p:not(.eyebrow) {
+  margin: 0;
+  color: #b8cbce;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.proof-item {
+  display: flex;
+  min-height: 74px;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.25rem;
+  border-left: 1px solid rgba(255,255,255,0.14);
+}
+
+.proof-item strong {
+  color: var(--orange);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.proof-item span {
+  max-width: 180px;
+  color: #d2dfdf;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
 .eyebrow {
   margin: 0 0 1.15rem;
   color: var(--teal-dark);
@@ -492,6 +546,21 @@ h3 {
   background: var(--white);
 }
 
+.work-image {
+  width: calc(100% + 3.8rem);
+  margin: -1.9rem -1.9rem 1.55rem;
+  overflow: hidden;
+  background: #eaf1f0;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.work-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .work-card-featured {
   border-color: rgba(32, 194, 181, 0.55);
   background: linear-gradient(145deg, #ffffff, #eefaf7);
@@ -696,6 +765,15 @@ h3 {
     padding-bottom: 5rem;
   }
 
+  .proof-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .proof-lead {
+    grid-column: 1 / -1;
+    max-width: 560px;
+  }
+
   .profile-panel {
     max-width: 560px;
   }
@@ -742,6 +820,20 @@ h3 {
   .hero-grid {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .proof-lead {
+    grid-column: 1 / -1;
+  }
+
+  .proof-item {
+    min-height: 66px;
+    padding-left: 0.9rem;
   }
 
   h1 {
