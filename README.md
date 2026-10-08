@@ -7,7 +7,7 @@ With 10+ years in software engineering, I help organisations build, modernise, a
 ## What I work on
 
 - Custom business software, SaaS, portals, and workflow systems
-- API, M-Pesa, payment, and messaging integrations
+- API, payment, AI, and business integrations
 - Legacy application modernisation and backend platforms
 - DevSecOps, observability, and production readiness
 - Architecture, technical discovery, delivery coordination, and handover
