@@ -42,7 +42,8 @@ These are representative public examples from the [Statum product portfolio](htt
 - [M-Pesa STK Push & C2B Payment Integration Platform](https://statum.co.ke/case-studies/mpesa-payment-integration) - An anonymised case study covering STK Push initiation, provider callbacks, transaction states, and reconciliation. Java/Spring Boot, PHP/Laravel, and Safaricom Daraja REST API.
 - [Enterprise API Integration Middleware](https://statum.co.ke/services/our-portfolio-products#api-ai-automation) - Data mapping, authentication, permissions, retries, limits, queues, error handling, and operational logs for connecting business systems and third-party APIs. Laravel/Spring Boot, RabbitMQ, Redis, and PostgreSQL.
 - [Bulk SMS Engine & Messaging Gateway](https://docs.statum.co.ke/docs/sms) - Provider routing, OTP messages, delivery reports, and webhook handling. Java/Spring Boot, SMPP, Redis, and multi-threaded workers.
-- [Business Operations System](https://statum.co.ke/case-studies/school-management-system) - An anonymised school-management case study covering records, fees, reporting, communication, roles, and permissions. Laravel, Vue.js, MySQL, and TailwindCSS.
+- [AI Integration & Business Automation Platform](https://statum.co.ke/services/our-portfolio-products#api-ai-automation) - Document search, summaries, assisted support, internal knowledge tools, and workflow automation connected to business context.
+- [School Management System](https://statum.co.ke/case-studies/school-management-system) - An anonymised case study covering learners, parents, fees, classes, examinations, reporting, and communication. Laravel, Vue.js, MySQL, and TailwindCSS.
 
 ## Engineering principles
 
